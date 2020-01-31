@@ -8,7 +8,7 @@ function delay(ms: number) {
 
 const node = figma.currentPage.selection[0];
 
-if ("children" in node) {
+if (node && "children" in node && node.children.length) {
   const timeout = 1000 / node.children.length;
   const width = node.width;
   const height = node.height;
@@ -27,5 +27,6 @@ if ("children" in node) {
     figma.closePlugin();
   }, node.children.length * timeout + 1);
 } else {
+  figma.notify("Please first select a frame with children elements");
   figma.closePlugin();
 }
