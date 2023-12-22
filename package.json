@@ -1,0 +1,16 @@
+{
+  "name": "figma-plugin-ovvverrrflowww",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lsvs/figma-plugin-ovvverrrflowww.git",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "watch": "yarn build -- --watch"
+  },
+  "author": "Sergey Lisovskiy <lisovskiyserj@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.82.0",
+    "typescript": "^5.3.3"
+  }
+}
