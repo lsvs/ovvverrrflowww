@@ -2,5 +2,15 @@
   "name": "ovvverrrflowww",
   "id": "801882695851711248",
   "api": "1.0.0",
-  "main": "code.js"
+  "main": "code.js",
+  "editorType": ["figma"],
+  "parameters": [
+    { "name": "Randomize positions?", "key": "position", "optional": true },
+    { "name": "Randomize rotation?", "key": "rotation", "optional": true },
+    { "name": "Randomize order?", "key": "index", "optional": true }
+  ],
+  "parameterOnly": false,
+  "networkAccess": {
+    "allowedDomains": ["none"]
+  }
 }
