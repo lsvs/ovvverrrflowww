@@ -12,5 +12,6 @@
   "parameterOnly": false,
   "networkAccess": {
     "allowedDomains": ["none"]
-  }
+  },
+  "documentAccess": "dynamic-page"
 }
